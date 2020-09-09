@@ -1,0 +1,236 @@
+.section-title {
+  height: 478px;
+  background-image: url("../images/main/title_section.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  @media screen and (min-width: 4262px) {
+    margin-top: 40px;
+    height: 625px;
+    background-image: url("../images/main/title_section_l.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.section-title-name {
+  font-size: 90px;
+  font-weight: 300;
+  margin-bottom: 119px;
+  @media screen and (min-width: 4262px) {
+    font-size: 140px;
+    margin-bottom: 173px;
+  }
+}
+
+.content-photo {
+  @media screen and (min-width: 4262px) {
+    width: 1336px;
+  }
+}
+
+.content-slider-wrapper {
+  background-color: #f4bab5;
+  height: 2310px;
+}
+
+.conten-slider-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slider-mark {
+  width: 40px;
+  height: 40px;
+  border: 5px solid #000000;
+  border-radius: 50% 50% 50% 50%;
+  margin: 8px;
+}
+
+.slider-mark-box {
+  width: 168px;
+  display: flex;
+}
+
+.content-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.name-content-title {
+  font-size: 60px;
+  margin-top: 170px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 90px;
+  }
+}
+
+.name-content {
+  margin-bottom: 65px;
+  font-size: 90px;
+  text-align: center;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 180px;
+    text-align: center;
+  }
+}
+
+.content-info-1 {
+  width: 868px;
+  height: 133px;
+  border: 6px solid #000000;
+  border-radius: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 4262px) {
+    width: 660px;
+    height: 97px;
+    border: 6px solid #000000;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 90px;
+  }
+}
+
+.content-info-1__mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50% 50% 50%;
+  border: none;
+  background-color: #b3f695;
+  margin-right: 40px;
+}
+
+.content-info-1__text {
+  font-size: 80px;
+  font-weight: 600;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 60px;
+  }
+}
+
+.main-content-text {
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 86px;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 80px;
+    line-height: 113px;
+  }
+}
+
+.content-box-for-style {
+  @media screen and (min-width: 4262px) {
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    margin-top: 313px;
+  }
+}
+
+.content-btn {
+  width: 820px;
+  height: 147px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 115px;
+
+  @media screen and (min-width: 4262px) {
+    background-color: transparent;
+    border: 6px solid #000000;
+    color: #000000;
+  }
+}
+
+.content-text-l {
+  display: none;
+
+  @media screen and (min-width: 4262px) {
+    display: block;
+  }
+}
+
+.content-text-s {
+  @media screen and (min-width: 4262px) {
+    display: none;
+  }
+}
+
+.content-box__1 {
+  margin-top: 460px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-width: 4262px) {
+    width: 1488px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+}
+
+.name-content-title-box {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+
+  @media screen and (min-width: 4262px) {
+    width: 100%;
+    position: static;
+  }
+}
+
+.content-box__2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-width: 4262px) {
+    width: 2400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.main-content-text-box {
+  @media screen and (min-width: 4262px) {
+    width: 1617px;
+  }
+}
+
+.content-slider-wrapper {
+  @media screen and (min-width: 4262px) {
+    height: 2148px;
+  }
+}
+
+.slider-mark-box {
+
+  @media screen and (min-width: 4262px) {
+    margin-top: 170px;
+  }
+}

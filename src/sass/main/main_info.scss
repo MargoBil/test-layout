@@ -1,0 +1,63 @@
+.main-info {
+  background-color: #000000;
+  height: 1444px;
+
+  @media screen and (min-width: 4262px) {
+    height: 1308px;
+  }
+}
+
+.info-title,
+.info-text {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.info-title {
+  padding-top: 180px;
+  font-size: 80px;
+  padding-bottom: 165px;
+
+  @media screen and (min-width: 4262px) {
+    padding-top: 180px;
+    font-size: 200px;
+    padding-bottom: 165px;
+  }
+}
+
+.info-text {
+  font-size: 65px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 120px;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 80px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 120px;
+    width: 3000px;
+  }
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hidden-text-l {
+  display: none;
+
+  @media screen and (min-width: 4262px) {
+    display: block;
+  }
+}
+
+.hidden-text-s {
+  @media screen and (min-width: 4262px) {
+    display: none;
+  }
+}

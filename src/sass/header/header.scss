@@ -1,0 +1,138 @@
+.note-container {
+  height: 146px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.note-link {
+  font-family: inherit;
+  font-size: 45px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  cursor: pointer;
+
+  @media screen and (min-width: 4262px) {
+    font-size: 50px;
+  }
+}
+
+.note-link-box {
+  width: 860px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 4262px) {
+    width: 100%
+  }
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  padding-top: 40px;
+}
+
+.users-icons {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.menu-btn__box {
+  width: 85px;
+  height: 34px;
+  position: relative;
+
+  @media screen and (min-width: 4262px) {
+    opacity: 0;
+  }
+}
+
+.menu-btn {
+  width: 85px;
+  height: 34px;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-btn__line {
+  background-color: #000000;
+  width: 85px;
+  height: 2px;
+  position: absolute;
+  right: 0px;
+}
+
+.menu-btn__line:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-btn__line:nth-child(3) {
+  bottom: 0px;
+}
+
+.main-title-logo {
+  height: 570px;
+
+  @media screen and (min-width: 4262px) {
+    height: 923px;
+  }
+}
+
+.main-title-logo__logo,
+.main-title-logo__title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title-logo__logo {
+  margin-bottom: 45px;
+
+  @media screen and (min-width: 4262px) {
+    width: 300px;
+    margin-bottom: 97px;
+  }
+}
+
+.main-title-logo__title {
+  @media screen and (min-width: 4262px) {
+    width: 1100px;
+  }
+}
+
+.users-icons__img {
+  margin-left: 25px;
+  cursor: pointer;
+
+  @media screen and (min-width: 4262px) {
+    margin-left: 35px;
+  }
+}
+
+.menu-list {
+  display: none;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: space-between;
+  font-size: 45px;
+  margin: 0 auto;
+  font-weight: 600;
+
+  @media screen and (min-width: 4262px) {
+    display: flex;
+    width: 3608px;
+    margin-bottom: 190px;
+  }
+}
+
+.menu-item-link {
+  text-decoration: none;
+  color: #000000;
+}
