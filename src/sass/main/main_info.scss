@@ -15,8 +15,10 @@
 
 .info-title {
   padding-top: 180px;
-  font-size: 80px;
+  font-size: 100px;
   padding-bottom: 165px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
 
   @media screen and (min-width: 4262px) {
     padding-top: 180px;
@@ -31,6 +33,7 @@
   padding-left: 8px;
   padding-right: 8px;
   line-height: 120px;
+  font-family: 'Noto Sans', sans-serif;
 
   @media screen and (min-width: 4262px) {
     font-size: 80px;

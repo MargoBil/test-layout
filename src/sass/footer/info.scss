@@ -10,9 +10,10 @@ footer {
   @media screen and (min-width: 4262px) {
     display: flex;
     justify-content: space-between;
-    width: 2400px;
+    width: 2500px;
     margin-left: 90px;
     align-items: flex-start;
+    padding-left: 0px;
   }
 }
 
@@ -23,10 +24,17 @@ footer {
   justify-content: space-between;
 
   @media screen and (min-width: 4262px) {
-    width: 600px;
+    width: auto;
     padding-bottom: 60px;
   }
 }
+
+.info-item:nth-child(3n) {
+  @media screen and (min-width: 4262px) {
+    margin-left: 150px;
+  }
+}
+
 
 .footer-info-title {
   color: #000000;
